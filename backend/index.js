@@ -7,11 +7,13 @@ const multer = require('multer');
 const path = require('path');
 const cors = require('cors');
 
+require('dotenv').config();
 app.use(express.json());
 app.use(cors());
 
 // Database connection with MongoDB
-mongoose.connect('mongodb+srv://marindiego:Karengp3@cluster0.rxv1zip.mongodb.net/image-galley');
+mongoose.connect(process.env.MONGO_URI)
+.then(() => console.log("MongoDB conectado."))
 
 // API creation
 app.get('/', (req, res)=>{
