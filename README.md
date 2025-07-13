@@ -16,6 +16,6 @@ Funcionalidades:
 
 Cómo ejecutarlo:
 1. Clona el repositorio.
-2. Instala dependencias: `npm install`
+2. Instala dependencias: "npm install"
 3. Corre el backend "npm run dev" y el frontend "npm start"
 4. Asegúrate de tener MongoDB conectado
