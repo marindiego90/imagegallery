@@ -19,3 +19,5 @@ Cómo ejecutarlo:
 2. Instala dependencias: "npm install"
 3. Corre el backend "npm run dev" y el frontend "npm start"
 4. Asegúrate de tener MongoDB conectado
+
+<img width="1919" height="916" alt="image" src="https://github.com/user-attachments/assets/d9da081b-1477-42ae-9b75-a9e161050a35" />
